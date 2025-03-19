@@ -63,17 +63,35 @@ Y= A⊕B
 
 
 **PROGRAM**
+module ORgate(A,B,Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor);
+input A,B;
+output Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor;
+assign Yor=A|B;
+assign Yand=A&B;
+assign Ynot=~A;
+assign Ynand=~(A&B);
+assign Ynor=~(A|B);
+assign Yxor=A^B;
+assign Yxnor=~(A^B);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
+![truth table](https://github.com/user-attachments/assets/534ad3b8-d1aa-488b-b82a-f7765b13eb95)
 
-**RTL realization Output:** 
+
+**RTL realization Output:**
+![ORgate](https://github.com/user-attachments/assets/878f56d3-2cf7-40f2-a684-6cd429b3ed91)
+
 
 **RTL**
+![Screenshot 2025-03-19 081659](https://github.com/user-attachments/assets/be120fd2-11dc-4dda-be91-ec4e69c84391)
+
 
 **Result:**
+Hence, Studied and verified the truth table of logic gates in Quartus II using Verilog programming successfully.
 
 
