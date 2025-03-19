@@ -1,3 +1,5 @@
+NAME: Vignesh S
+Reg.No:212224110061
 ### study-of-basic-gates
 
 **AIM:** 
@@ -66,14 +68,34 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:Vignesh S 
+ RegisterNumber: 212224110061
+
+module ORgate(A,B,Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor);
+input A,B;
+output Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor;
+assign Yor=A|B;
+assign Yand=A&B;
+assign Ynot=~A;
+assign Ynand=~(A&B);
+assign Ynor=~(A|B);
+assign Yxor=A^B;
+assign Yxnor=~(A^B);
+endmodule
  
 **Logic symbol & Truthtable**
+![truth table](https://github.com/user-attachments/assets/d9896bae-3acd-4862-bafb-2edd2e72f5a5)
+
 
 **RTL realization Output:** 
+![ORgate](https://github.com/user-attachments/assets/37487eb3-ffc1-4b20-94cd-8b1a680126d1)
+
 
 **RTL**
+![Screenshot 2025-03-19 081659](https://github.com/user-attachments/assets/430dc03f-8363-49bb-9456-389daaadbe74)
+
 
 **Result:**
+Hence, Studied and verified the truth table of logic gates in Quartus II using Verilog programming successfully.
 
 
