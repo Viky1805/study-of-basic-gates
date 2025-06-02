@@ -1,3 +1,7 @@
+### Name : VIGNESH S
+
+### REG NO : 212224110061
+
 ### Verification of truth tables for different logic gates and realization using Verilog HDL
 
 **AIM:** 
