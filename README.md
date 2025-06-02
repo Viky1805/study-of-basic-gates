@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Verification of truth tables for different logic gates and realization using Verilog HDL
 
 **AIM:** 
 
